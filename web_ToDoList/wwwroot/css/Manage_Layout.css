@@ -1,0 +1,41 @@
+﻿footer {
+    visibility: hidden;
+}
+
+.container_ {
+    background: #FF4F5A;
+    margin: 0;
+    padding: 16px 30px 18px 30px;
+}
+
+.logo_ {
+    color: #FFF;
+    font-size: 30px;
+    display: inline-block;
+}
+
+    .logo_:hover, .recta:hover {
+        color: #FFF;
+        fill: #FFF;
+    }
+
+.recta {
+    fill: #FFF;
+}
+
+.in_rec {
+    fill: #FF4F5A;
+}
+
+.nav_ {
+    margin-right: 90px !important;
+}
+
+.sidebar {
+    z-index: -1;
+    background: #F9F9F9;
+    float: left;
+    width: 17.6vw;
+    height: 100vh;
+    padding: 50px 0 0 40px;
+}

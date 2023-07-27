@@ -1,0 +1,23 @@
+﻿@{
+	if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout != null)
+	{
+		Layout = parentLayout.ToString();
+	}
+	else
+	{
+		Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+	}
+}
+
+<link rel="stylesheet" href="~/css/Manage_Layout.css" />
+
+	<div class="">
+		<partial name="_ManageNav" />
+	</div>
+	<div class="">
+		@RenderBody()
+	</div>
+
+@section Scripts {
+	@RenderSection("Scripts", required: false)
+}

@@ -1,0 +1,56 @@
+﻿@{
+	ViewData["Title"] = "Главная страница";
+}
+
+<link rel="stylesheet" href="~/css/Home.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rowdies:wght@300&family=Russo+One&display=swap" rel="stylesheet">
+
+<div class="container_m">
+	<div class="text-center block">
+		<div style="width: 600px; margin: 0 auto;">
+			<p class="heading">Организуйте свой дневной досуг с помощью ToDo Daily</p>
+		</div>
+		<a asp-area="" asp-action="Index" asp-controller="App">
+			<button class="get_started">
+				Начать
+			</button>
+		</a>
+		<img src="~/img/main_page/4005526 1.png" />
+	</div>
+	
+	<div class="step_section">
+		<p>Не проводите свой день, ничего не делая</p>
+		<div class="actions">
+			<div class="action">
+				<img src="~/img/main_page/smallT.png"/>
+				<span>Небольшая задача</span>
+			</div>
+			<div class="action">
+				<img src="~/img/main_page/writeIt.png" />
+				<span>Запиши</span>
+			</div>
+			<div class="action">
+				<img src="~/img/main_page/doIt.png" />
+				<span>Выполни</span>
+			</div>
+			<div class="action">
+				<img src="~/img/main_page/repeat.png" />
+				<span>Повтори</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="getstarted_section row">
+		<img class="col-1" src="~/img/main_page/image 1.png" />
+		<div class="col-6">
+			<p>Достигни своей цели и выиграй свою жизнь</p>
+			<a asp-area="" asp-action="Index" asp-controller="App">
+				<button class="get_started">
+					Начать
+				</button>
+			</a>
+		</div>
+	</div>
+</div>

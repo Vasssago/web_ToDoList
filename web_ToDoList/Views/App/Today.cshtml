@@ -1,0 +1,19 @@
+﻿@{
+	//ViewData["Title"] = "Задачи";
+}
+
+<link rel="stylesheet" href="~/css/App.css" />
+
+<partial name="_SideBarPartial.cshtml" />
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Create New Task</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Create New Task</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+    </div>
+    <div class="offcanvas-body small">
+		<!--partial name="_CreatePartial.cshtml" /-->
+    </div>
+</div>

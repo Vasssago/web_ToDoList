@@ -1,0 +1,98 @@
+﻿
+.container_ {
+    display: flex;
+    margin: 70px 270px 20px 270px;
+    justify-content: space-between;
+}
+
+.logo_ {
+    font-family: 'Rowdies', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF4F5A;
+    display: inline-block;
+}
+
+    .logo_:hover, .recta:hover {
+        color: #F71F2D;
+        fill: #F71F2D;
+    }
+
+    .logo_ svg {
+        vertical-align: text-bottom;
+        display: inline-block;
+        margin-right: 2px;
+    }
+
+.nav_ {
+    margin-top: 10px;
+}
+
+    .nav_ .login {
+        color: #FF4F5A;
+        margin-right: 10px;
+    }
+
+    .nav_ a {
+        text-decoration: none;
+        color: #000;
+        font-family: 'Rosario', sans-serif;
+    }
+
+footer {
+    margin: 70px 270px 30px 270px;
+    padding: 25px 0 30px 0;
+    border-top: 1px solid #FF4F5A !important;
+}
+
+    footer p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        width: 400px;
+    }
+
+.foot {
+    width: 43%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.author {
+    margin-top: 44px;
+    padding: 0;
+    width: 200px;
+    height: 40px;
+}
+
+    .author p {
+        width: 200px;
+        height: 16px;
+    }
+
+.dropdown-menu {
+    width: 200px !important;
+    margin-top: 2em !important;
+    border-radius: 12px !important;
+    padding-right: 70px !important;
+}
+
+.dropdown ul li a {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.dropdown ul li button {
+    margin-left: 15px;
+    margin-bottom: 4px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+}
+
+.dropdown ul li svg {
+    margin-right: 7px;
+}
+
+.logout_ {
+    color: #FF4F5A !important;
+}

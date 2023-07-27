@@ -1,0 +1,83 @@
+﻿.container_m {
+    margin: 40px 270px 0 270px;
+}
+
+.text-center p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+
+.get_started {
+    background: #FF4F5A;
+    color: white;
+    width: 238px;
+    height: 58px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.block {
+    display: block;
+}
+
+.text-center img {
+    width: 100%;
+}
+
+.step_section {
+    display: block;
+    margin: 120px 0 0 0;
+    text-align: center !important;
+}
+
+    .step_section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px auto;
+    width: 880px;
+}
+
+.action {
+    width: 100px;
+    text-align: center !important;
+}
+
+    .action img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+        width: 80%;
+    }
+
+    .action span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+
+.getstarted_section {
+    margin: 150px 0 0 0;
+}
+
+    .getstarted_section img {
+        width: 400px;
+        vertical-align: top;
+    }
+
+    .getstarted_section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }

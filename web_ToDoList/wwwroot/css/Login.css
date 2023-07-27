@@ -1,0 +1,100 @@
+﻿header, footer {
+    visibility: hidden;
+}
+
+.w_90 {
+    width: 90% !important;
+}
+
+.container_main {
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    width: 500px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 28px 28px 34px 28px;
+}
+
+    .container_main h4 {
+        font-family: 'Russo One', sans-serif;
+        margin: 38px 0 38px 0;
+    }
+
+    .container_main p {
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        text-align: center !important;
+    }
+
+        .container_main p a {
+            text-decoration: none;
+            color: #FF4F5A;
+        }
+
+            .container_main p a:hover {
+                color: #F71F2D; 
+            }
+
+    .inp {
+        margin-bottom: 10px;
+    }
+
+.div1 {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.button {
+    --color: #FF4F5A;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+    .button::before, .button::after {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: var(--color);
+        transition: .8s ease;
+    }
+
+    .button::before {
+        top: -1em;
+        left: -1em;
+    }
+
+    .button::after {
+        left: calc(100% + 1em);
+        top: calc(100% + 1em);
+    }
+
+    .button:hover::before, .button:hover::after {
+        height: 450px;
+        width: 450px;
+    }
+
+    .button:hover {
+        color: #fff;
+    }
+
+    .button:active {
+        filter: brightness(.8);
+    }

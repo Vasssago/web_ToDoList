@@ -1,0 +1,44 @@
+﻿.sidebar {
+    z-index: -1;
+    background: #F9F9F9;
+    float: left;
+    width: 17.6vw;
+    height: 100vh;
+    padding: 50px 0 0 40px;
+    
+}
+
+    .sidebar a {
+        text-decoration: none;
+    }
+
+        .sidebar a:hover {
+            color: #6B6B6B;
+        }
+
+.sidebtn {
+    margin-bottom: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: #6B6B6B;
+}
+
+    .sidebtn svg {
+        margin-right: 16px;
+        vertical-align: middle;
+    }
+
+.sidebtn_active {
+    margin-bottom: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FF4F5A;
+}
+
+    .sidebtn_active svg {
+        margin-right: 16px;
+        vertical-align: middle;
+    }
+
